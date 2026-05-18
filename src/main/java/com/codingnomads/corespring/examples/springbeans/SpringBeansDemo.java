@@ -10,7 +10,9 @@ public class SpringBeansDemo {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(SpringBeansDemoConfig.class);
         SpringDeveloper springDeveloper = ctx.getBean(SpringDeveloper.class);
         System.out.println(
-                "Spring Developer Address: " + springDeveloper.getAddress().getStreetNumber() + " "
+                "Spring Team Address: "
+                        + springDeveloper.getAddress().getStreetNumber() + " "
                         + springDeveloper.getAddress().getStreet());
+        System.out.println("Sprint Team: " + springDeveloper.getTeam().getDepartment());
     }
 }

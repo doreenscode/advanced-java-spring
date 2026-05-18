@@ -5,7 +5,7 @@ import jakarta.persistence.EntityNotFoundException;
 import java.util.Arrays;
 
 public enum Designation {
-    DEVELOPER("dev", "Developer"),
+    DEVELOPER("dev", "Team"),
     DESIGNER("des", "Designer"),
     TESTER("test", "Tester");
 

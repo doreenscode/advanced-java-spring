@@ -8,4 +8,13 @@ public class AnnotationDemoService implements LegacyInfoProvider {
     public String info() {
         return "legacy api fetching information";
     }
+
+    @SecondaryDate
+    @Override
+    public String data() {
+        return "data are empty";
+    }
 }
+
+
+

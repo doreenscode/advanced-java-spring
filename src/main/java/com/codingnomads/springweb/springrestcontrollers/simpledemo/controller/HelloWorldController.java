@@ -10,7 +10,7 @@ public class HelloWorldController {
 
     @RequestMapping(path = "/hello", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public String hello() {
-        return "Hello Spring Developer!";
+        return "Hello Spring Team!";
     }
 
     @RequestMapping(path = "/hello/{name}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)

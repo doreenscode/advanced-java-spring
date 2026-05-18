@@ -11,7 +11,7 @@ public class GreetingController {
 
     @GetMapping({"/", "/index"})
     public String index(Model model) {
-        model.addAttribute("name", "Spring Developer!");
+        model.addAttribute("name", "Spring Team!");
         return "greeting";
     }
 

@@ -45,7 +45,7 @@ public class Nomad {
     }
 
     public String output() {
-        return "Spring Developer is building awesome software using: "
+        return "Spring Team is building awesome software using: "
                 .concat(jdk)
                 .concat(" , ")
                 .concat(framework)

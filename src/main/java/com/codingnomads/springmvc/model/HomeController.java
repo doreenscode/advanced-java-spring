@@ -14,7 +14,7 @@ public class HomeController {
     // using addAttribute for each attribute
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("name", "Developer");
+        model.addAttribute("name", "Team");
         model.addAttribute("language", "Java");
         model.addAttribute("framework", "Spring");
         return "model-page";
@@ -24,7 +24,7 @@ public class HomeController {
     @GetMapping("/map")
     public String indexMap(Model model) {
         Map<String, String> map = new HashMap<>();
-        map.put("name", "Developer");
+        map.put("name", "Team");
         map.put("language", "Java");
         model.mergeAttributes(map);
 

@@ -12,4 +12,11 @@ public class SpringBeansDemoConfig {
     public Address address() {
         return new Address("Main Street", 1500);
     }
+
+    @Bean
+    public Team team(){
+        return new Team("Developers");
+    }
+
 }
+
