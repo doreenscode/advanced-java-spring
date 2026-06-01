@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("test")
+@Profile("!test")
 public class TestDataLoader implements CommandLineRunner {
 
     @Autowired
